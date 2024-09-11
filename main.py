@@ -17,5 +17,4 @@ if __name__ == '__main__':
 
     library.add_movie('Комедия', 'Весёлый питонист')
     library.add_movie('Комедия', 'Три разраба и тестировщик')
-
     print(library.recommend('Комедия'))
