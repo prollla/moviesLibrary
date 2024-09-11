@@ -50,7 +50,6 @@ def test_recommended_library_empty(movies_library):
 def test_add_movies_to_genre(movies_library):
     movies_library.add_movie('Комедия', 'Весёлый питонист')
     movies_library.add_movie('Комедия', 'Три разраба и тестировщик')
-    print(movies_library.recommend('Комедия'))
     if sorted(movies_library.recommend('Комедия')) == sorted(["Три разраба и тестировщик", 'Весёлый питонист']):
         pass
     else:
